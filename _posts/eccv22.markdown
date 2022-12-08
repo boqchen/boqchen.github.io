@@ -7,9 +7,9 @@ categories: research
 author: "Boqi Chen"
 authors: "Kevin Thandiackal<sup>*</sup>, <strong>Boqi Chen</strong><sup>*</sup>, Pushpak Pati, Guillaume Jaume, Drew F. K. Williamson, Maria Gabrani, and Orcun Goksel"
 venue: "European Conference on Computer Vision"
-arxiv: https://arxiv.org/abs/1904.05537
-slides: /pdfs/crv19-slides.pdf
+paper: https://link.springer.com/chapter/10.1007/978-3-031-19803-8_41
+poster: /pdfs/eccv22.pdf
 code: https://github.com/histocartography/zoommil
 ---
 
-A formulation for fitting Gaussian Mixture Models (GMMs) directly to geometric objects, such as a triangular mesh. This method produces more robust results and produces an improvement in 3D registration for both meshes and RGB-D frames. 
+A novel multiple instance learning (MIL) method, which learns to perform multi-level differentiable zooming in histopathology Whole-Slide Images (WSIs). It can be trained end-to-end to aggregate context information across multiple scales for image classification while significantly reducing computational efforts, i.e., run-time and floating-point operations.
