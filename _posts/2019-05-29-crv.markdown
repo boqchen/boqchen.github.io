@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Direct Fitting of Gaussian Mixture Models"
-date:   2019-05-29 22:21:59 +00:00
-image: /images/crv19.png
+title:  "Differentiable Zooming for Multiple Instance Learning on Whole-Slide Images"
+date:   2022-10-27 22:21:59 +00:00
+image: /images/eccv22.png
 categories: research
-author: "Leo Keselman"
-authors: "<strong>Leonid Keselman</strong>, Martial Hebert"
-venue: "Computer and Robot Vision Conference"
-arxiv: https://arxiv.org/abs/1904.05537
+author: "Boqi Chen"
+authors: "Kevin Thandiackal<sup>*</sup>, <strong>Boqi Chen</strong><sup>*</sup>, Pushpak Pati, Guillaume Jaume, Drew F. K. Williamson, Maria Gabrani, and Orcun Goksel"
+venue: "European Conference on Computer Vision"
+paper: https://arxiv.org/abs/1904.05537
 slides: /pdfs/crv19-slides.pdf
 code: https://github.com/leonidk/direct_gmm
 ---
