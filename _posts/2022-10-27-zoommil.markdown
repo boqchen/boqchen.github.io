@@ -2,7 +2,7 @@
 layout: post
 title:  "Differentiable Zooming for Multiple Instance Learning on Whole-Slide Images"
 date:   2022-10-27 22:21:59 +00:00
-image: /images/eccv22.png
+image: /images/eccv22-min.png
 categories: research
 author: "Boqi Chen"
 authors: "Kevin Thandiackal<sup>*</sup>, <strong>Boqi Chen</strong><sup>*</sup>, Pushpak Pati, Guillaume Jaume, Drew F. K. Williamson, Maria Gabrani, and Orcun Goksel"
