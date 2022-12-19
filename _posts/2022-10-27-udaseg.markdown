@@ -5,7 +5,7 @@ date:   2022-10-27 22:21:59 +00:00
 image: /images/mia22.png
 categories: research
 author: "Boqi Chen"
-authors: "<strong>Boqi Chen</strong><sup>*</sup>, Kevin Thandiackal<sup>*</sup>, Pushpak Pati, Guillaume Jaume, Drew F. K. Williamson, Maria Gabrani, and Orcun Goksel"
+authors: "<strong>Boqi Chen</strong><sup>*</sup>, Kevin Thandiackal<sup>*</sup>, Pushpak Pati, and Orcun Goksel"
 venue: "Preprint"
 ---
 
