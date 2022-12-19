@@ -2,7 +2,7 @@
 layout: post
 title:  "<i>Nothing Stands Still</i>: A Spatiotemporal Benchmark on 3D Point Cloud Registration Under Large Geometric and Temporal Change"
 date:   2021-07-28 21:21:53 +00:00
-image: /images/cupdice.png
+image: /images/3dv21.png
 categories: ETH
 course: "252-0579-00L 3D Vision"
 author: "Boqi Chen"
