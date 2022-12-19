@@ -89,6 +89,8 @@
               {% endif %}
               {% if post.slides %}
               <a href="{{post.slides}}">slides</a> /
+              {% if post.dataset %}
+              <a href="{{post.dataset}}">dataset</a> /
               {% endif %}
               <p></p>
               {{ post.excerpt }}
