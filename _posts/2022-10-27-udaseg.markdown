@@ -9,4 +9,4 @@ authors: "<strong>Boqi Chen</strong><sup>*</sup>, Kevin Thandiackal<sup>*</sup>,
 venue: "Preprint"
 ---
 
-The first segmentation method for continual unsupervised domain adaptation (UDA), which mitigates forgetting in the source and intermediate target domains without storing any previously seen data. It includes a novel combination of appearance transfer and generative replay using a stochastic generator, which enables diverse sampling from the entire domain distribution and is less prone to overfitting than methods employing separate memory buffers.
+The first medical image segmentation method for continual unsupervised domain adaptation (UDA) that mitigates forgetting in the source and intermediate target domains without storing any previously seen data. It includes a novel combination of appearance transfer and generative replay using a stochastic generator, which enables diverse sampling from the entire domain distribution and is less prone to overfitting than methods employing separate memory buffers.
