@@ -23,4 +23,4 @@ I am interested in interdisciplinary study, especially the intersection of human
 
 Previously I obtained an MSc in Data Science from [EPFL](https://www.epfl.ch/education/master/programs/data-science/) where I worked with [Prof. Tanja Käser](https://people.epfl.ch/tanja.kaeser/?lang=en) and [Prof. Thiemo Wambsganß](https://haislab.com/) on AI-assisted writing.
 
-Besides 👩‍💻, I enjoy 📸 💃 and 🧘‍♀️.
+I am always open to new collaborations on projects. Feel free to reach out!
