@@ -9,7 +9,7 @@ categories: sample-posts
 visualization: true
 ---
 
-As programming classrooms continue to expand—both in physical size and across online platforms—the challenge of supporting large-scale learning environments becomes increasingly urgent. For example, introductory computer science courses at institutions like UC Berkeley and the University of Washington regularly enroll over a thousand students per term [7]. This growth poses a challenge for educators: how to provide timely, personalized, and meaningful feedback to students who need help. Traditional methods, such as addressing students who raise their hands, are effective in smaller settings but falter when scaled to classes of hundreds or more. Over the years, innovative tools have emerged to help instructors manage this complexity. More recently, the advent of Large Language Models (LLMs) has ushered in transformative changes in how feedback can be generated, delivered, and scaled. This blog explores how these advancements are empowering educators to reimagine their roles and create new opportunities for engaging learners.
+As programming classrooms continue to expand—both in physical size and across online platforms—the challenge of supporting large-scale learning environments becomes increasingly urgent. For example, introductory computer science courses at institutions like UC Berkeley and the University of Washington regularly enroll over a thousand students per term. This growth poses a challenge for educators: how to provide timely, personalized, and meaningful feedback to students who need help. Traditional methods, such as addressing students who raise their hands, are effective in smaller settings but falter when scaled to classes of hundreds or more. Over the years, innovative tools have emerged to help instructors manage this complexity. More recently, the advent of Large Language Models (LLMs) has ushered in transformative changes in how feedback can be generated, delivered, and scaled. This blog explores how these advancements are empowering educators to reimagine their roles and create new opportunities for engaging learners.
 
 ### Classroom 1.0: code clustering and monitoring students' progress in real-time
 
@@ -52,5 +52,3 @@ In the future, AI does not replace instructors but amplifies their ability to te
 [5] Tang, X., Wong, S., Pu, K., Chen, X., Yang, Y., & Chen, Y. (2024). VizGroup: An AI-Assisted Event-Driven System for Real-Time Collaborative Programming Learning Analytics. *arXiv preprint arXiv:2404.08743*.
 
 [6] Tang, X., Wong, S., Huynh, M., He, Z., Yang, Y., & Chen, Y. (2024). SPHERE: Scaling Personalized Feedback in Programming Classrooms with Structured Review of LLM Outputs. *arXiv preprint arXiv:2410.16513*.
-
-[7] How big is UC Berkeley's biggest class? (n.d.). The Daily Californian. Retrieved December 25, 2024, from https://www.dailycal.org/archives/how-big-is-uc-berkeleys-biggest-class/article_def82e86-1d71-5d42-a070-f161580fd19c.html

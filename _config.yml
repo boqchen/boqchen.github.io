@@ -121,7 +121,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Research and More # blog_name will be displayed in your blog page
-blog_description: Research is seeing what everybody else has seen and thinking what nobody else has thought. - Albert Szent-Györgyi
+blog_description: Research is seeing what everybody else has seen and thinking what nobody else has thought. - Albert Szent-Györgyi 
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -129,7 +129,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: false
+  enabled: true
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
