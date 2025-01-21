@@ -10,7 +10,7 @@ email: xiaotian.su@inf.ethz.ch
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Su Xiaotian webpage.
 footer_text: >
-keywords: # add your own keywords or leave empty
+keywords: Su Xiaotian, ETH Zürich, Computer Science, Informatics, Research, Academic, Switzerland, HCI # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: prof_pic.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
