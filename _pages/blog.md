@@ -24,9 +24,14 @@ pagination:
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
   <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
+  <h1>{{ site.blog_name }}</h1>
+  <div class="quote-container">
+    <blockquote>
+      <p class="quote-text">"Research is seeing what everybody else has seen and thinking what nobody else has thought."</p>
+      <footer class="quote-author">—Albert Szent-Györgyi</footer>
+    </blockquote>
   </div>
+</div>
   {% endif %}
 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}

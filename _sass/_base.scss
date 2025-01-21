@@ -514,6 +514,33 @@ footer.sticky-bottom {
     font-size: 5rem;
   }
 }
+.quote-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: left;
+}
+
+blockquote {
+  position: relative;
+  margin: 0;
+  padding: 1.5rem 2rem;
+}
+
+.quote-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #495057;
+  font-style: italic;
+  margin: 0;
+}
+
+.quote-author {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-top: 0.75rem;
+  text-align: right;
+}
 
 .tag-category-list {
   border-bottom: 1px solid var(--global-divider-color);

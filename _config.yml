@@ -276,7 +276,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: ["cognition", "visualization", "eye-tracking", "software engineering", "education", "psychology"] # these tags will be displayed on the front page of your blog
-display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
+display_categories: ["research"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
