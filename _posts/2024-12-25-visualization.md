@@ -15,11 +15,11 @@ authors:
       name: ETH Zürich
 
 toc:
- - name: "Classroom 1.0: code clustering and monitoring students' progress in real-time"
- - name: "Classroom 2.0: enpowering instructors with AI-driven insights"
- - name: "From overwhelmed to empowered: How can AI become the co-educator?"
- - name: Balancing Automation and Autonomy
- - name: Creating a Feedback Loop Between AI and Educators
+  - name: "Classroom 1.0: code clustering and monitoring students' progress in real-time"
+  - name: "Classroom 2.0: enpowering instructors with AI-driven insights"
+  - name: "From overwhelmed to empowered: How can AI become the co-educator?"
+  - name: Balancing Automation and Autonomy
+  - name: Creating a Feedback Loop Between AI and Educators
 
 bibliography: 2024-12-25-visualization.bib
 ---
