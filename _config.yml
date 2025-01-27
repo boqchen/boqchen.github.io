@@ -69,6 +69,7 @@ gitlab_username: # your GitLab user name
 x_username: # xiaotian_su  your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: xiaotiansu # your LinkedIn user name
+bsky_username: xiaotiansu.bsky.social # your bluesky user name
 telegram_username: # your Telegram user name
 scholar_userid: CbftQaoAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
