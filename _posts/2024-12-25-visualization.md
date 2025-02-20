@@ -5,7 +5,7 @@ date: 2024-12-25
 description: Discover how language models and visualization tools are reshaping the way instructors engage with students, making programming education more scalable, impactful, and learner-centric.
 featured: true
 category: research
-tags: visualization feedback
+tags: visualization cognition
 visualization: true
 
 authors:
