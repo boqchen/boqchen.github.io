@@ -34,11 +34,21 @@ Building on the need for real-time support, **Codeopticon** introduced an interf
 
 To address these challenges, **VizProg** was developed to provide a more scalable and intuitive real-time visualization tool. It represented students’ statuses as a 2D Euclidean spatial map, encoding their problem-solving approaches and progress <d-cite key="zhang2023vizprog"></d-cite>. This visualization allowed instructors to explore both the temporal and structural evolution of students’ code and identify opportunities for feedback. However, the tool's scalability was limited, it can be applied to around 100 to 200 solutions; instructors found it overwhelming when a large number of students began working simultaneously. Moreover, understanding specific content often required manually selecting areas and examining raw code.
 
+<div style="text-align: center;">
+  {% include figure.liquid loading="eager" path="assets/img/blogs/VizProg.png" %}
+  <figcaption style="text-align: center;">Comparison of different systems in VizProg</figcaption>
+</div>
+
 ### Classroom 2.0: enpowering instructors with AI-driven insights
 
 With the rise of LLMs, researchers have started leveraging these technologies to overcome the limitations of earlier tools. **CFlow**, for example, utilized LLMs for post-hoc analysis by generating line-level error information for student code <d-cite key="zhang2024cflow"></d-cite>. By providing semantic-label abstractions and a color-coded histogram, it helped instructors identify common mistakes more efficiently when presented with over 6,000 submissions. Similarly, **VizGroup** harnessed LLMs to recommend event specifications, enabling instructors to monitor key correlation patterns between collaboration metrics and coding tasks for over 100 submissions in real-time <d-cite key="tang2024vizgroup"></d-cite>. Beyond these, tools like **SPHERE** directs instructors’ attention to critical student issues, offers guided control over LLM-generated feedback, and employs visual scaffolding to enhance feedback verification and quality <d-cite key="tang2024sphere"></d-cite>. These innovations illustrate how the integration of LLMs is transforming the way instructors interact with student solutions, making feedback and analysis more scalable and actionable.
 
 Interestingly, all the tools mentioned above were designed specifically for introductory programming courses and evaluated primarily using Python-based datasets. Looking ahead, there is a pressing need to expand these innovations to cater to a broader range of programming topics, such as web development, data science, and other specialized areas. Additionally, future tools should address the diverse needs of learners across different experience levels, including intermediate and advanced programmers, to ensure more comprehensive and inclusive support in programming education.
+
+<div style="text-align: center;">
+    {% include figure.liquid loading="eager" path="assets/img/blogs/SPHERE.png" %}
+    <figcaption style="text-align: center;">Workflow overview of</figcaption>
+</div>
 
 ### From overwhelmed to empowered: How can AI become the co-educator?
 
