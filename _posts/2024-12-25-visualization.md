@@ -47,7 +47,7 @@ Interestingly, all the tools mentioned above were designed specifically for intr
 
 <div style="text-align: center;">
     {% include figure.liquid loading="eager" path="assets/img/blogs/SPHERE.png" %}
-    <figcaption style="text-align: center;">Workflow overview of</figcaption>
+    <figcaption style="text-align: center;">Workflow overview of SPHERE.</figcaption>
 </div>
 
 ### From overwhelmed to empowered: How can AI become the co-educator?
