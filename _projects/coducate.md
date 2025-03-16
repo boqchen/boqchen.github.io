@@ -7,4 +7,4 @@ category: work
 related_publications: true
 ---
 
-[Project page](https://madbeamer.github.io/coducate-project-page/)
+[Project page](https://madbeamer.github.io/coducate-project-page/): now Coducate is available in [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=coducate.coducate).
