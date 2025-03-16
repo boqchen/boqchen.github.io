@@ -10,7 +10,7 @@ profile:
   more_info: >
     <p>PhD Student</p>
     <br>
-    <p>ETH Zürich</p>
+    <p>ETH Zurich</p>
 
 news: true # includes a list of news items
 social: true # includes social icons at the bottom of the page

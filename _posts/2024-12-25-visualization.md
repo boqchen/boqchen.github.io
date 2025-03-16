@@ -12,7 +12,7 @@ authors:
   - name: Xiaotian Su
     url: "https://xiaotiansu.github.io"
     affiliations:
-      name: ETH Zürich
+      name: ETH Zurich
 
 toc:
   - name: "Classroom 1.0: code clustering and monitoring students' progress in real-time"
