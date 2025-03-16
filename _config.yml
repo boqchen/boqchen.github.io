@@ -75,7 +75,7 @@ scholar_userid: CbftQaoAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # 0009-0004-0548-1576 your ORCID ID
-medium_username: # your Medium username
+medium_username: xiaotian_su # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
@@ -276,7 +276,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["cognition", "visualization", "education", "psycholinguistics"] # these tags will be displayed on the front page of your blog
+display_tags: ["cognition", "visualization", "education", "psycholinguistics", "LLMs", "HAI"] # these tags will be displayed on the front page of your blog
 display_categories: ["research"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
