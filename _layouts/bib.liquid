@@ -165,6 +165,9 @@
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       {% endif %}
+      {% if entry.blog %}
+        <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
+      {% endif %}
       {% if entry.paper %}
         {% assign paper_path = entry.paper | prepend: '/assets/paper/' | relative_url %}
         <a href="{{ paper_path }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
@@ -178,9 +181,6 @@
       {% endif %}
       {% if entry.video %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
-      {% endif %}
-      {% if entry.blog %}
-        <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
       {% endif %}
       {% if entry.code %}
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
