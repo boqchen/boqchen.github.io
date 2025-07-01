@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 selected_papers: true # includes a list of papers marked as "selected={true}"
 ---
 
-Hi! I'm Su Xiaotian (苏晓甜). I'm a first-year PhD student at <a href="https://www.ethz.ch/"><img src="/assets/img/ethz.png" alt="ETHz" title="ETHz" style="width:82px; padding-bottom: 3px;"/></a>, supervised by [Prof. April Wang](https://aprilwang.me/) and [Prof. Mrinmaya Sachan](https://www.mrinmaya.io/). I am also associated with the [ETH AI Center](https://ai.ethz.ch/) <img src="/assets/img/aic.png" alt="ETHz" title="ETHz" style="width:30px"/>. Additionally, I am a representative for the [SwissCHI](https://swisschi.acm.org/) student chapter.
+Hi! I'm Su Xiaotian (苏晓甜). I'm a first-year PhD student at <a href="https://www.ethz.ch/"><img src="/assets/img/ethz.png" alt="ETHz" title="ETHz" style="width:82px; padding-bottom: 3px;"/></a> supervised by [Prof. April Wang](https://aprilwang.me/). I am also associated with the [ETH AI Center](https://ai.ethz.ch/) <img src="/assets/img/aic.png" alt="ETHz" title="ETHz" style="width:30px"/>. Additionally, I am a representative for the [SwissCHI](https://swisschi.acm.org/) student chapter.
 
 I am interested in interdisciplinary study, especially the human-AI interaction (HAI), natural language processing (NLP), human cognition and education. I am deeply passionate about developing AI tools to support instructors and learners.
 

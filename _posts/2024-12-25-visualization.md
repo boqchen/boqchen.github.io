@@ -3,7 +3,7 @@ layout: distill
 title: Scalable Feedback Through AI and Visualization
 date: 2024-12-25
 description: Discover how language models and visualization tools are reshaping the way instructors engage with students, making programming education more scalable, impactful, and learner-centric.
-featured: true
+featured: false
 category: research
 tags: visualization cognition
 visualization: true
