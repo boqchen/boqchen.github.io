@@ -28,7 +28,7 @@ Besides research, I enjoy Jazz dance 💃, tennis 🎾, and photography 📷.
 <summary style="padding: 15px; cursor: pointer; margin: 0; background-color: var(--global-bg-color); border-radius: 8px 8px 0 0;">🎓 <strong>Work with me</strong></summary>
 <div style="padding: 15px; border-top: 1px solid #e1e5e9; border-left: 4px solid var(--global-theme-color);">
 
-I'm looking to mentor passionate Bachelor's and Master's students who want to explore eye-tracking, cognitive modeling, or AI-assisted programming. My research sits at the intersection of human cognition, AI systems, and educational technology.
+I’m eager to collaborate with fellow doctoral students in HCI or NLP, and I also enjoy mentoring motivated Bachelor’s and Master’s students interested in eye-tracking, cognitive modeling, or AI-assisted programming. My research lies at the intersection of human cognition, AI systems, and educational technology.
 
 If you have a good foundation in these areas and get excited about these topics, I'd love to <a href="mailto:xiaotian.su@inf.ethz.ch">chat about potential research projects</a>!
 
