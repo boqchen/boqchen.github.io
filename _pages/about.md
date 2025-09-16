@@ -30,7 +30,7 @@ Besides research, I enjoy Jazz dance 💃, tennis 🎾, and photography 📷.
 
 I’m eager to collaborate with fellow doctoral students in HCI or NLP, and I also enjoy mentoring motivated Bachelor’s and Master’s students interested in eye-tracking, cognitive modeling, or AI-assisted programming. My research lies at the intersection of human cognition, AI systems, and educational technology.
 
-If you have a good foundation in these areas and get excited about these topics, I'd love to <a href="mailto:xiaotian.su@inf.ethz.ch">chat about potential research projects</a>!
+Feel free to reach out to me and we could <a href="mailto:xiaotian.su@inf.ethz.ch">chat about research or life</a>!
 
 </div>
 </details>
