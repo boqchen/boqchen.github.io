@@ -3,14 +3,14 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Su
+first_name: Xiaotian
 middle_name:
-last_name: Xiaotian
+last_name: Su
 email: xiaotian.su@inf.ethz.ch
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Su Xiaotian webpage.
+  Xiaotian Su webpage.
 footer_text: >
-keywords: Su Xiaotian, ETH Zürich, Computer Science, Informatics, Research, Academic, Switzerland, HCI # add your own keywords or leave empty
+keywords: Xiaotian Su, ETH Zürich, Computer Science, Informatics, Research, Academic, Switzerland, HCI # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: prof_pic.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
