@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 ---
 
 Hi! I'm Xiaotian Su (苏晓甜), a second-year PhD student at <a href="https://www.ethz.ch/"><img src="/assets/img/ethz.png" alt="ETHz" title="ETHz" style="width:82px; padding-bottom: 3px;"/></a> supervised by [Prof. April Wang](https://aprilwang.me/).
-My research focuses on understanding human cognition and designing AI systems to enhance programming education. I am particularly interested in using **eye-tracking** and **cognitive modeling** to study how people read, understand and verify code, and design cognitive-aware AI systems to support learning.
+My research uses **eye-tracking** and **cognitive modeling** to study how people read, understand, and verify code—and applies these insights to build cognitive-aware AI systems and agentic workflows that support professional developers, instructors, and beginners alike.
 
 Previously I obtained an MSc in Data Science from <a href="https://www.epfl.ch/"><img src="/assets/img/epfl.svg" alt="EPFL" title="EPFL" style="width:50px; padding-bottom: 8px;"/></a> where I worked with [Prof. Tanja Käser](https://people.epfl.ch/tanja.kaeser/?lang=en) and [Prof. Thiemo Wambsganß](https://haislab.com/) on AI-assisted writing.
 Besides research, I enjoy Jazz dance 💃, tennis 🎾, and photography 📷.
