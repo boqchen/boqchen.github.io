@@ -19,6 +19,16 @@ strong {
   color: var(--global-text-color);
 }
 
+body {
+  letter-spacing: 0;
+}
+
+code,
+pre,
+.profile .more-info {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -37,6 +47,8 @@ table {
 a,
 table.table a {
   color: var(--global-theme-color);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
 
   &:hover {
     color: var(--global-theme-color);
@@ -60,9 +72,92 @@ img {
   max-width: 90vw;
 }
 
+.inline-logo {
+  display: inline-block;
+  height: 1.05em;
+  margin: 0 0.08em;
+  max-width: none;
+  object-fit: contain;
+  vertical-align: -0.16em;
+  width: auto;
+}
+
+.inline-logo-wide {
+  height: 1em;
+}
+
+.intro-badge {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  display: inline-flex;
+  font-size: 0.68rem;
+  font-weight: 650;
+  line-height: 1;
+  margin-left: 0.18rem;
+  padding: 0.22rem 0.42rem;
+  position: relative;
+  text-decoration: none;
+  top: -0.06rem;
+  white-space: nowrap;
+
+  &:hover {
+    filter: brightness(0.96);
+    text-decoration: none;
+  }
+}
+
+.intro-badge-mllm {
+  background: rgba(190, 103, 43, 0.12);
+  border-color: rgba(190, 103, 43, 0.28);
+  color: #9b531f;
+}
+
+.intro-badge-fm {
+  background: rgba(126, 87, 194, 0.12);
+  border-color: rgba(126, 87, 194, 0.28);
+  color: #6741a3;
+}
+
+.intro-badge-3d {
+  background: rgba(214, 93, 177, 0.12);
+  border-color: rgba(214, 93, 177, 0.28);
+  color: #a73785;
+}
+
+.intro-badge-agent {
+  background: rgba(13, 148, 136, 0.1);
+  border-color: rgba(13, 148, 136, 0.26);
+  color: #0f766e;
+}
+
+.intro-badge-submission {
+  border-style: dashed;
+}
+
+// Work with me
+
+.work-with-me {
+  background-color: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  margin: 1.25rem 0;
+  max-width: 44rem;
+
+  summary {
+    cursor: pointer;
+    padding: 0.8rem 1rem;
+  }
+
+  .work-with-me-body {
+    border-left: 4px solid var(--global-theme-color);
+    border-top: 1px solid var(--global-divider-color);
+    padding: 0.9rem 1rem 0.1rem;
+  }
+}
+
 blockquote {
   background: var(--global-bg-color);
-  border-left: 5px solid var(--global-theme-color);
+  border-left: 3px solid var(--global-theme-color);
   margin: 1.5em 0;
   padding: 1em;
   font-size: 1.2rem;
@@ -163,6 +258,8 @@ ul.task-list input[type="checkbox"] {
 
 .card {
   background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
 
   img {
     width: 100%;
@@ -190,10 +287,171 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-theme-color);
 }
 
+.author-note {
+  color: var(--global-text-color-light);
+  font-size: 0.78rem;
+  margin-top: 0.1rem;
+}
+
+.publication-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.35rem 0 0.45rem;
+}
+
+.pub-tag {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  color: var(--global-text-color);
+  display: inline-flex;
+  font-size: 0.68rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.28rem 0.48rem;
+  white-space: nowrap;
+}
+
+.tag-ai4healthcare {
+  background: rgba(47, 111, 104, 0.12);
+  border-color: rgba(47, 111, 104, 0.28);
+  color: #2f6f68;
+}
+
+.tag-multimodal-llm {
+  background: rgba(190, 103, 43, 0.12);
+  border-color: rgba(190, 103, 43, 0.28);
+  color: #9b531f;
+}
+
+.tag-foundation-model {
+  background: rgba(126, 87, 194, 0.12);
+  border-color: rgba(126, 87, 194, 0.28);
+  color: #6741a3;
+}
+
+.tag-generative-models {
+  background: rgba(88, 110, 117, 0.12);
+  border-color: rgba(88, 110, 117, 0.28);
+  color: #4e6268;
+}
+
+.tag-continual-learning {
+  background: rgba(26, 115, 232, 0.11);
+  border-color: rgba(26, 115, 232, 0.26);
+  color: #1a5fba;
+}
+
+.tag-weakly-supervised-learning {
+  background: rgba(22, 163, 74, 0.1);
+  border-color: rgba(22, 163, 74, 0.24);
+  color: #187a3d;
+}
+
+.tag-3d-vision {
+  background: rgba(99, 91, 255, 0.12);
+  border-color: rgba(99, 91, 255, 0.28);
+  color: #5147d9;
+}
+
+.tag-llm-agents {
+  background: rgba(13, 148, 136, 0.1);
+  border-color: rgba(13, 148, 136, 0.26);
+  color: #0f766e;
+}
+
+.tag-world-model {
+  background: rgba(214, 93, 177, 0.12);
+  border-color: rgba(214, 93, 177, 0.28);
+  color: #a73785;
+}
+
+html[data-theme="dark"] {
+  .intro-badge-mllm {
+    background: rgba(245, 158, 91, 0.16);
+    border-color: rgba(245, 158, 91, 0.34);
+    color: #f7bd86;
+  }
+
+  .intro-badge-fm {
+    background: rgba(196, 167, 231, 0.16);
+    border-color: rgba(196, 167, 231, 0.32);
+    color: #d5bdf0;
+  }
+
+  .intro-badge-3d {
+    background: rgba(244, 167, 216, 0.16);
+    border-color: rgba(244, 167, 216, 0.32);
+    color: #f0b6dc;
+  }
+
+  .intro-badge-agent {
+    background: rgba(94, 234, 212, 0.14);
+    border-color: rgba(94, 234, 212, 0.3);
+    color: #99f6e4;
+  }
+
+  .tag-llm-agents {
+    background: rgba(94, 234, 212, 0.14);
+    border-color: rgba(94, 234, 212, 0.3);
+    color: #99f6e4;
+  }
+
+  .tag-ai4healthcare {
+    background: rgba(140, 199, 189, 0.16);
+    border-color: rgba(140, 199, 189, 0.32);
+    color: #9fd8d0;
+  }
+
+  .tag-multimodal-llm {
+    background: rgba(245, 158, 91, 0.16);
+    border-color: rgba(245, 158, 91, 0.34);
+    color: #f7bd86;
+  }
+
+  .tag-foundation-model {
+    background: rgba(196, 167, 231, 0.16);
+    border-color: rgba(196, 167, 231, 0.32);
+    color: #d5bdf0;
+  }
+
+  .tag-generative-models {
+    background: rgba(166, 163, 155, 0.16);
+    border-color: rgba(166, 163, 155, 0.32);
+    color: #c9c6bd;
+  }
+
+  .tag-continual-learning {
+    background: rgba(137, 180, 250, 0.16);
+    border-color: rgba(137, 180, 250, 0.32);
+    color: #a9c8ff;
+  }
+
+  .tag-weakly-supervised-learning {
+    background: rgba(134, 239, 172, 0.14);
+    border-color: rgba(134, 239, 172, 0.3);
+    color: #a7f3c1;
+  }
+
+  .tag-3d-vision {
+    background: rgba(168, 154, 255, 0.17);
+    border-color: rgba(168, 154, 255, 0.34);
+    color: #c0b7ff;
+  }
+
+  .tag-world-model {
+    background: rgba(244, 167, 216, 0.16);
+    border-color: rgba(244, 167, 216, 0.32);
+    color: #f0b6dc;
+  }
+}
+
 // Profile
 
 .profile {
   width: 100%;
+  max-width: 190px;
+  margin: 0 auto 1rem;
 
   .more-info {
     text-align: center;
@@ -206,17 +464,25 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.profile img {
+  border: 1px solid var(--global-divider-color);
+  box-shadow: none !important;
+  filter: saturate(0.96) contrast(1.02);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 1.25rem;
 }
 
 .profile.float-left {
-  margin-right: 1rem;
+  margin-right: 1.25rem;
 }
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 190px;
 
     .address {
       p {
@@ -245,8 +511,9 @@ ul.task-list input[type="checkbox"] {
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
-  opacity: 0.95;
+  background-color: color-mix(in srgb, var(--global-bg-color) 92%, transparent);
+  backdrop-filter: blur(12px);
+  opacity: 1;
 }
 
 .navbar .dropdown-menu {
@@ -284,10 +551,13 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-brand {
     color: var(--global-text-color);
+    letter-spacing: 0;
+    font-weight: 500;
   }
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    font-size: 0.95rem;
 
     &:hover {
       color: var(--global-hover-color);
@@ -296,7 +566,7 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
-    font-weight: bolder;
+    font-weight: 600;
     color: var(--global-theme-color);
 
     &:hover {
@@ -1144,4 +1414,19 @@ swiper-container {
   --swiper-navigation-color: var(--global-theme-color);
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
+}
+
+.cv-placeholder {
+  margin-top: 1.5rem;
+
+  p {
+    color: var(--global-text-color-light);
+    margin-top: 0.85rem;
+  }
+}
+
+.cv-placeholder-button {
+  align-items: center;
+  display: inline-flex;
+  gap: 0.4rem;
 }

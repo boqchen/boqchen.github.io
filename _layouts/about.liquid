@@ -37,7 +37,19 @@ layout: default
         <!-- Social -->
         {% if page.social %}
           <div class="social">
-            <div class="contact-icons">{% include social.liquid %}</div>
+            <div class="contact-icons">
+              <a href="mailto:&#98;&#111;&#113;&#105;&#46;&#99;&#104;&#101;&#110;&#64;&#97;&#105;&#46;&#101;&#116;&#104;&#122;&#46;&#99;&#104;" title="email"><i class="fa-solid fa-envelope"></i></a>
+              {% if site.scholar_userid %}
+                <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+              {% endif %}
+              <a href="https://github.com/boqchen" title="GitHub"><i class="fa-brands fa-github"></i></a>
+              {% if site.linkedin_username %}
+                <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+              {% endif %}
+              {% if site.x_username %}
+                <a href="https://twitter.com/{{ site.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+              {% endif %}
+            </div>
 
             <div class="contact-note">{{ site.contact_note }}</div>
           </div>
@@ -49,14 +61,12 @@ layout: default
   </article>
 
   <!-- News -->
-  <!--
-    {% if page.news and site.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
-  -->
+  {% if page.news and site.announcements.enabled %}
+    <h2>
+      <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+    </h2>
+    {% include news.liquid limit=true %}
+  {% endif %}
 
   <!-- Publications -->
   {% if page.selected_papers %}

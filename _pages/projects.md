@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Student projects that I supervised
-nav: true
+description: Selected research projects and software
+nav: false
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [research, software]
 horizontal: false
 ---
 

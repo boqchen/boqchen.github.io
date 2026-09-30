@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: boqi_profile.png
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>PhD Student</p>
@@ -17,21 +17,18 @@ social: true # includes social icons at the bottom of the page
 selected_papers: true # includes a list of papers marked as "selected={true}"
 ---
 
-Hi! I'm Xiaotian Su (苏晓甜), a second-year PhD student at <a href="https://www.ethz.ch/"><img src="/assets/img/ethz.png" alt="ETHz" title="ETHz" style="width:82px; padding-bottom: 3px;"/></a> supervised by [Prof. April Wang](https://aprilwang.me/).
-My research uses **eye-tracking** and **cognitive modeling** to study how people read, understand, and verify code—and applies these insights to build cognitive-aware AI systems and agentic workflows that support professional developers, instructors, and beginners alike.
+I'm a PhD student in Computer Science at <a href="https://www.ethz.ch/"><img class="inline-logo inline-logo-wide" src="/assets/img/ethz.png" alt="ETH Zurich" title="ETH Zurich"/></a>, supervised by [Prof. Gunnar Rätsch](https://bmi.inf.ethz.ch/) and [Prof. Ender Konukoglu](https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjc5LC0xOTcxNDY1MTc4.html). I am also a Doctoral Fellow at <a href="https://ai.ethz.ch/"><img class="inline-logo inline-logo-wide" src="/assets/img/eth_ai_center_logo.png" alt="ETH AI Center" title="ETH AI Center"/></a> [ETH AI Center](https://ai.ethz.ch/research/phd-and-postdoc-programs/phd-fellowships.html). 
 
-Previously I obtained an MSc in Data Science from <a href="https://www.epfl.ch/"><img src="/assets/img/epfl.svg" alt="EPFL" title="EPFL" style="width:50px; padding-bottom: 8px;"/></a> where I worked with [Prof. Tanja Käser](https://people.epfl.ch/tanja.kaeser/?lang=en) and [Prof. Thiemo Wambsganß](https://haislab.com/) on AI-assisted writing.
-Besides research, I enjoy Jazz dance 💃, tennis 🎾, and photography 📷.
+My research interests include **multimodal learning**, **generative models**, and **foundation models**. Recently, I have been working on evaluating and improving multimodal LLMs and LLM agents: benchmarking LLM agents on sequential, safety-constrained clinical decision-making <a class="intro-badge intro-badge-agent" href="https://arxiv.org/abs/2608.30188">EMNLP '26</a>, rethinking decoding strategies for visual question answering from a calibration perspective <a class="intro-badge intro-badge-mllm" href="https://arxiv.org/abs/2604.23443">EMNLP '26</a>, and multi-evidence synthesis in complex clinical cases <a class="intro-badge intro-badge-mllm" href="https://arxiv.org/abs/2602.21950">ACL Findings '26</a>. I also work on scalable data pipelines for foundation models, such as unsupervised data curation for pathology foundation models <a class="intro-badge intro-badge-fm" href="https://link.springer.com/chapter/10.1007/978-3-032-04978-0_53">MICCAI '25</a> and automated 3D annotation of million-scale egocentric videos <a class="intro-badge intro-badge-3d" href="https://arxiv.org/abs/2603.11755">ECCV '26</a>.
 
-<div style="border: 1px solid #e1e5e9; border-radius: 8px; margin: 20px 0; background-color: var(--global-bg-color); width: 70%;">
-<details>
-<summary style="padding: 15px; cursor: pointer; margin: 0; background-color: var(--global-bg-color); border-radius: 8px 8px 0 0;">🎓 <strong>Work with me</strong></summary>
-<div style="padding: 15px; border-top: 1px solid #e1e5e9; border-left: 4px solid var(--global-theme-color);">
+I earned an MSc from <a href="https://www.ethz.ch/"><img class="inline-logo inline-logo-wide" src="/assets/img/ethz.png" alt="ETH Zurich" title="ETH Zurich"/></a>, where I worked with [Prof. Guillaume Jaume](https://guillaumejaume.github.io/people/) and [Dr. Pushpak Pati](https://pushpakpati.github.io/) on weakly-supervised learning and continual learning. I was a research intern at <a href="https://research.ibm.com/labs/zurich"><img class="inline-logo inline-logo-wide" src="/assets/img/ibm_logo.svg" alt="IBM Research" title="IBM Research"/></a> and <a href="https://www.apple.com/"><img class="inline-logo" src="/assets/img/apple_logo.svg" alt="Apple" title="Apple"/></a>. Besides research, I enjoy baking 🍞, traveling ✈️ and swimming 🏊‍♂️. 
 
-I’m eager to collaborate with fellow doctoral students in HCI or NLP, and I also enjoy mentoring motivated Bachelor’s and Master’s students interested in eye-tracking, cognitive modeling, or AI-assisted programming. My research lies at the intersection of human cognition, AI systems, and educational technology.
 
-Feel free to reach out to me and we could <a href="mailto:xiaotian.su@inf.ethz.ch">chat about research or life</a>!
+<details class="work-with-me">
+<summary><strong>🎓 Work with me</strong></summary>
+<div class="work-with-me-body" markdown="1">
+
+I'm happy to hear from motivated students at ETH Zurich interested in a semester project or Master's thesis. Current directions include **multimodal LLMs and LLM agents for clinical reasoning**, **reliable decoding and evaluation of MLLMs**, and **foundation models for medical imaging and digital pathology**. If this sounds interesting, please [email me](mailto:boqi.chen@ai.ethz.ch) with your CV, transcript, and a short note on what you'd like to work on.
 
 </div>
 </details>
-</div>

@@ -9,3 +9,7 @@ _site
 Gemfile.lock
 node_modules/
 vendor
+# private drafts (never publish)
+rebuttal_draft.md
+point_to_point_response.md
+tmp/

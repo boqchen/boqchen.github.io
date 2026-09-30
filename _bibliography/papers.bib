@@ -1,175 +1,180 @@
-@inproceedings{Su-etal-2025-Emotion,
-  author = {Su, Xiaotian and Zierau, Naim and Kim, Soomin and Wang, April Yi and Wambsganss, Thiemo},
-  title = {Emotionally Aware Moderation: The Potential of Emotion Monitoring in Shaping Healthier Social Media Conversations},
+@inproceedings{chen2026gpagentbench,
+  abbr = {EMNLP},
+  author = {Chen, Boqi and Liu, Xudong and Ao, Yunke and Do, Heejin and Qiu, Jianing},
+  title = {{GPAgentBench-2K}: Benchmarking Large Language Model Agents in Complex Clinical Action Space},
+  booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  year = {2026},
+  html = {https://arxiv.org/abs/2608.30188},
+  arxiv = {2608.30188},
+  abstract = {Large Language Models (LLMs) show great potential as clinical agents, yet existing benchmarks reduce clinical workflows to static predictions or unconstrained Markov Decision Processes (MDPs) with coarse action sets. To address this, we introduce GPAgentBench-2K, the first Constrained MDP (CMDP) LLM-agent benchmark for primary-care clinical decision-making, constructed from expert-validated records of real-world GP encounters. Our environment models a full spectrum of six foundational clinical actions, imposes a topological workflow prior over the action space, and operationalizes safety-informed abstention as a first-class outcome. Evaluating 16 state-of-the-art LLMs reveals a significant performance degradation as the action space scales. Crucially, we uncover a clinical quality-safety gap: even frontier models with the highest diagnosis accuracy violate safety constraints in over half of high-risk cases. Finally, we establish a reference point using Constrained Group Relative Policy Optimization (C-GRPO), and show that while explicitly modeling constraints improves performance over unconstrained RL methods, it remains far from clinically acceptable safety.},
+  bibtex_show = {true},
+  topics = {AI4Healthcare, LLM Agents},
+  selected = {true}
+}
+
+@inproceedings{chen2026greedy,
+  abbr = {EMNLP},
+  author = {Chen, Boqi and Liu, Xudong and Ao, Yunke and Qiu, Jianing},
+  title = {Revisiting Greedy Decoding for Visual Question Answering: A Calibration Perspective},
+  booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  year = {2026},
+  html = {https://arxiv.org/abs/2604.23443},
+  arxiv = {2604.23443},
+  preview = {arXiv_GreedyDecoding.png},
+  abstract = {Stochastic sampling strategies are widely adopted in large language models (LLMs) to balance output coherence and diversity. These heuristics are often inherited in Multimodal LLMs (MLLMs) without task-specific justification. However, we contend that stochastic decoding can be suboptimal for Visual Question Answering (VQA). VQA is a closed-ended task with head-heavy answer distributions where uncertainty is usually epistemic, arising from missing or ambiguous visual evidence rather than plausible continuations. In this work, we provide a theoretical formalization of the relationship between model calibration and predictive accuracy, and derive the sufficient conditions for greedy decoding optimality. Extensive experiments provide empirical evidence for the superiority of greedy decoding over stochastic sampling across multiple benchmarks. Furthermore, we propose Greedy Decoding for Reasoning Models, which outperforms both stochastic sampling and standard greedy decoding in multimodal reasoning scenarios. Overall, our results caution against naively inheriting LLMs decoding heuristics in MLLMs and demonstrate that greedy decoding can be an efficient yet strong default for VQA.},
+  bibtex_show = {true},
+  topics = {Multimodal LLM},
+  selected = {true}
+}
+
+@inproceedings{chen2026medsyn,
+  abbr = {ACL},
+  author = {Chen, Boqi and Liu, Xudong and Peng, Jiachuan and Frey-Marti, Marianne and Zheng, Bang and Lam, Kyle and Li, Lin and Qiu, Jianing},
+  title = {{MEDSYN}: Benchmarking Multi-EviDence SYNthesis in Complex Clinical Cases for Multimodal Large Language Models},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2026},
+  year = {2026},
+  html = {https://arxiv.org/abs/2602.21950},
+  arxiv = {2602.21950},
+  preview = {ACL_MedSyn.png},
+  abstract = {Multimodal large language models (MLLMs) have shown great potential in medical applications, yet existing benchmarks inadequately capture real-world clinical complexity. We introduce MEDSYN, a multilingual, multimodal benchmark of highly complex clinical cases with up to 7 distinct visual clinical evidence (CE) types per case. Mirroring clinical workflow, we evaluate 18 MLLMs on differential diagnosis (DDx) generation and final diagnosis (FDx) selection. While top models often match or even outperform human experts on DDx generation, all MLLMs exhibit a much larger DDx--FDx performance gap compared to expert clinicians, indicating a failure mode in synthesis of heterogeneous CE types. Ablations attribute this failure to (i) overreliance on less discriminative textual CE (e.g., medical history) and (ii) a cross-modal CE utilization gap. We introduce Evidence Sensitivity to quantify the latter and show that a smaller gap correlates with higher diagnostic accuracy. Finally, we demonstrate how it can be used to guide interventions to improve model performance. We will open-source our benchmark and code.},
+  bibtex_show = {true},
+  topics = {AI4Healthcare, Multimodal LLM},
+  selected = {true}
+}
+
+@inproceedings{chen2026mask,
+  abbr = {EACL},
+  author = {Chen, Boqi and Liu, Xudong and Qiu, Jianing},
+  title = {Mask What Matters: Mitigating Object Hallucinations in Multimodal Large Language Models with Object-Aligned Visual Contrastive Decoding},
+  booktitle = {Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics: SRW},
+  year = {2026},
+  html = {https://aclanthology.org/2026.eacl-srw.2/},
+  arxiv = {2602.11737},
+  preview = {EACL_MaskWhatMatters.png},
+  abstract = {We study object hallucination in Multimodal Large Language Models (MLLMs) and improve visual contrastive decoding (VCD) by constructing an object-aligned auxiliary view. We leverage object-centric attention in self-supervised Vision Transformers. In particular, we remove the most salient visual evidence to construct an auxiliary view that disrupts unsupported tokens and produces a stronger contrast signal. Our method is prompt-agnostic, model-agnostic, and can be seamlessly plugged into the existing VCD pipeline with little computation overhead, i.e., a single cacheable forward pass. Empirically, our method demonstrates consistent gains on two popular object hallucination benchmarks across two MLLMs.},
+  bibtex_show = {true},
+  topics = {Multimodal LLM},
+  selected = {true}
+}
+
+@inproceedings{ye2026yonosplat,
+  abbr = {ICLR},
+  author = {Ye, Botao and Chen, Boqi and Xu, Haofei and Barath, Daniel and Pollefeys, Marc},
+  title = {{YoNoSplat}: You Only Need One Model for Feedforward 3D Gaussian Splatting},
+  booktitle = {International Conference on Learning Representations},
+  year = {2026},
+  html = {https://openreview.net/forum?id=ImRhA9xmay},
+  arxiv = {2511.07321},
+  website = {https://botaoye.github.io/yonosplat/},
+  preview = {ICLR_YoNoSplat.png},
+  abstract = {Fast and flexible 3D scene reconstruction from unstructured image collections remains a significant challenge. We present YoNoSplat, a feedforward model that reconstructs high-quality 3D Gaussian Splatting representations from an arbitrary number of images. Our model is highly versatile, operating effectively with both posed and unposed, calibrated and uncalibrated inputs. YoNoSplat predicts local Gaussians and camera poses for each view, which are aggregated into a global representation using either predicted or provided poses. To overcome the inherent difficulty of jointly learning 3D Gaussians and camera parameters, we introduce a novel mixing training strategy. This approach mitigates the entanglement between the two tasks by initially using ground-truth poses to aggregate local Gaussians and gradually transitioning to a mix of predicted and ground-truth poses, which prevents both training instability and exposure bias. We further resolve the scale ambiguity problem by a novel pairwise camera-distance normalization scheme and by embedding camera intrinsics into the network. Moreover, YoNoSplat also predicts intrinsic parameters, making it feasible for uncalibrated inputs. YoNoSplat demonstrates exceptional efficiency, reconstructing a scene from 100 views (at 280x518 resolution) in just 2.69 seconds on an NVIDIA GH200 GPU. It achieves state-of-the-art performance on standard benchmarks in both pose-free and pose-dependent settings. Our project page is at https://botaoye.github.io/yonosplat/.},
+  bibtex_show = {true},
+  topics = {Generative Models, 3D Vision},
+  selected = {true}
+}
+
+@inproceedings{zhang2026egocentric,
+  abbr = {ECCV},
+  author = {Zhang, Chenyangguang and Ye, Botao and Chen, Boqi and Delitzas, Alexandros and Wang, Fangjinhua and Pollefeys, Marc and Wang, Xi},
+  title = {Controllable Egocentric Video Generation via Occlusion-Aware Sparse 3D Hand Joints},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year = {2026},
+  html = {https://arxiv.org/abs/2603.11755},
+  arxiv = {2603.11755},
+  preview = {arXiv_EgocentricVideo.png},
+  abstract = {Motion-controllable video generation is crucial for egocentric applications in virtual reality and embodied AI. However, existing methods often struggle to achieve 3D-consistent fine-grained hand articulation. By adopting on 2D trajectories or implicit poses, they collapse 3D geometry into spatially ambiguous signals or over rely on human-centric priors. Under severe egocentric occlusions, this causes motion inconsistencies and hallucinated artifacts, as well as preventing cross-embodiment generalization to robotic hands. To address these limitations, we propose a novel framework that generates egocentric videos from a single reference frame, leveraging sparse 3D hand joints as embodiment-agnostic control signals with clear semantic and geometric structures. We introduce an efficient control module that resolves occlusion ambiguities while fully preserving 3D information. Specifically, it extracts occlusion-aware features from the source reference frame by penalizing unreliable visual signals from hidden joints, and employs a 3D-based weighting mechanism to robustly handle dynamically occluded target joints during motion propagation. Concurrently, the module directly injects 3D geometric embeddings into the latent space to strictly enforce structural consistency. To facilitate robust training and evaluation, we develop an automated annotation pipeline that yields over one million high-quality egocentric video clips paired with precise hand trajectories. Additionally, we register humanoid kinematic and camera data to construct a cross-embodiment benchmark. Extensive experiments demonstrate that our approach significantly outperforms state-of-the-art baselines, generating high-fidelity egocentric videos with realistic interactions and exhibiting exceptional cross-embodiment generalization to robotic hands.},
+  bibtex_show = {true},
+  topics = {Generative Models, 3D Vision, World Model},
+  selected = {true}
+}
+
+@inproceedings{chen2025revisiting,
+  abbr = {MICCAI},
+  author = {Chen, Boqi and Vincent-Cuaz, C{\'e}dric and Schoenpflug, Lydia A. and Madeira, Manuel and Fournier, Lisa and Subramanian, Vaishnavi and Andani, Sonali and Ruiperez-Campillo, Samuel and Vogt, Julia E. and Luisier, Rapha{\"e}lle and Thanou, Dorina and Koelzer, Viktor H. and Frossard, Pascal and Campanella, Gabriele and R{\"a}tsch, Gunnar},
+  title = {Revisiting Automatic Data Curation for Vision Foundation Models in Digital Pathology},
+  booktitle = {Medical Image Computing and Computer Assisted Intervention},
   year = {2025},
-  publisher = {Association for Computing Machinery},
-  address = {New York, NY, USA},
-  url = {https://doi.org/10.1145/3757472},
-  doi = {10.1145/3757472},
-  abstract = {Social media platforms increasingly employ proactive moderation techniques, such as detecting and curbing toxic and uncivil comments, to prevent the spread of harmful content. Despite these efforts, such approaches are often criticized for creating a climate of censorship and failing to address the underlying causes of uncivil behavior. Our work makes both theoretical and practical contributions by proposing and evaluating two types of emotion monitoring dashboards to enhance users' emotional awareness and mitigate hate speech. In a study involving 211 participants, we evaluate the effects of the two mechanisms on user commenting behavior and emotional experiences. The results reveal that these interventions effectively increase users' awareness of their emotional states and reduce hate speech. However, our findings also indicate potential unintended effects, including increased expression of negative emotions (Angry, Fear, and Sad) when discussing sensitive issues. These insights provide a basis for further research on integrating proactive emotion regulation tools into social media platforms to foster healthier digital interactions.},
-  booktitle = {Proceedings of the ACM on Human-Computer Interaction, Volume 9},
-  articleno = {291},
-  numpages = {28},
-  keywords = {social media, proactive intervention, emotion monitoring},
-  series = {CSCW '25},
-  preview = {CSCW25_emotion.png},
-  paper = {CSCW25_emotion.pdf},
-  bibtex_show={true},
+  html = {https://link.springer.com/chapter/10.1007/978-3-032-04978-0_53},
+  doi = {10.1007/978-3-032-04978-0_53},
+  code = {https://github.com/swiss-ai/patho-ssl-data-curation},
+  preview = {MICCAI_RevisitingDataCuration.png},
+  abstract = {This work investigates unsupervised tile-level data curation for digital pathology foundation models, using hierarchical clustering over large-scale tile embeddings and balanced sampling strategies to improve downstream clinical performance.},
+  bibtex_show = {true},
+  topics = {AI4Healthcare, Foundation Model},
   selected = {true}
 }
 
-@inproceedings{Su-etal-2025-Stress,
-  author = {Su, Xiaotian and Wang, April Yi},
-  title = {The Stress of Improvisation: Instructors' Perspectives on Live Coding in Programming Classes},
+@article{andani2025histopathology,
+  abbr = {Nat. Mach. Intell.},
+  author = {Andani, Sonali and Chen, Boqi and Ficek-Pascual, Joanna and Heinke, Simon and Casanova, Ruben and Hild, Bernard Friedrich and Sobottka, Bettina and Bodenmiller, Bernd and Koelzer, Viktor H. and R{\"a}tsch, Gunnar},
+  title = {Histopathology-Based Protein Multiplex Generation Using Deep Learning},
+  journal = {Nature Machine Intelligence},
   year = {2025},
-  isbn = {9798400713958},
-  publisher = {Association for Computing Machinery},
-  address = {New York, NY, USA},
-  url = {https://doi.org/10.1145/3706599.3719993},
-  doi = {10.1145/3706599.3719993},
-  abstract = {Live coding is a pedagogical technique in which an instructor writes and executes code in front of students to impart skills like incremental development and debugging. Although live coding offers many benefits, instructors face many challenges in the classroom, like cognitive challenges and psychological stress, most of which have yet to be formally studied. To understand the obstacles faced by instructors in CS classes, we conducted (1) a formative interview with five teaching assistants in exercise sessions and (2) a contextual inquiry study with four lecturers for large-scale classes. We found that the improvisational and unpredictable nature of live coding makes it difficult for instructors to manage their time and keep students engaged, resulting in more mental stress than presenting static slides. We discussed opportunities for augmenting existing IDEs and presentation setups to help enhance live coding experience.},
-  booktitle = {Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems},
-  articleno = {525},
-  numpages = {6},
-  keywords = {live coding, programming education at scale},
-  series = {CHI EA '25},
-  html = {https://dl.acm.org/doi/full/10.1145/3706599.3719993},
-  preview = {CHI25LBW_live.png},
-  paper = {CHI25LBW_live.pdf},
-  poster = {CHI25LBW_poster.pdf},
-  bibtex_show={true},
+  html = {https://www.nature.com/articles/s42256-025-01074-y},
+  doi = {10.1038/s42256-025-01074-y},
+  abstract = {HistoPlexer generates spatially resolved protein multiplexes from standard H&E histopathology images and supports tumor microenvironment characterization.},
+  bibtex_show = {true},
+  topics = {AI4Healthcare, Generative Models},
   selected = {true}
 }
 
-@inproceedings{Khurana-etal-2025-Investigating,
-  author = {Khurana, Anjali and Su, Xiaotian and Wang, April Yi and Chilana, Parmit K},
-  title = {Do It For Me vs. Do It With Me: Investigating User Perceptions of Different Paradigms of Automation in Copilots for Feature-Rich Software},
+@inproceedings{chen2025generalizable,
+  abbr = {WACV},
+  author = {Chen, Boqi and Zhu, Yuanzhi and Ao, Yunke and Caprara, Sebastiano and Sutter, Reto and R{\"a}tsch, Gunnar and Konukoglu, Ender and Susmelj, Anna},
+  title = {Generalizable Single-Source Cross-Modality Medical Image Segmentation via Invariant Causal Mechanisms},
+  booktitle = {The IEEE/CVF Winter Conference on Applications of Computer Vision},
   year = {2025},
-  isbn = {9798400713941},
-  publisher = {Association for Computing Machinery},
-  address = {New York, NY, USA},
-  url = {https://doi.org/10.1145/3706598.3713431},
-  doi = {10.1145/3706598.3713431},
-  abstract = {Large Language Model (LLM)-based in-application assistants, or copilots, can automate software tasks, but users often prefer learning by doing, raising questions about the optimal level of automation for an effective user experience. We investigated two automation paradigms by designing and implementing a fully automated copilot (AutoCopilot) and a semi-automated copilot (GuidedCopilot) that automates trivial steps while offering step-by-step visual guidance. In a user study (N=20) across data analysis and visual design tasks, GuidedCopilot outperformed AutoCopilot in user control, software utility, and learnability, especially for exploratory and creative tasks, while AutoCopilot saved time for simpler visual tasks. A follow-up design exploration (N=10) enhanced GuidedCopilot with task-and state-aware features, including in-context preview clips and adaptive instructions. Our findings highlight the critical role of user control and tailored guidance in designing the next generation of copilots that enhance productivity, support diverse skill levels, and foster deeper software engagement.},
-  booktitle = {Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},
-  articleno = {880},
-  numpages = {18},
-  keywords = {feature-rich software; large language models; software copilots; user control; semi-automation; human-AI collaboration},
-  html = {https://dl.acm.org/doi/full/10.1145/3706598.3713431},
-  series = {CHI '25},
-  preview = {CHI25_GuidedCopilot.png},
-  paper = {CHI25_GuidedCopilot.pdf},
-  bibtex_show={true},
-  blog = {/blog/2025/guided/},
+  html = {https://ieeexplore.ieee.org/document/10943614},
+  code = {https://github.com/ratschlab/ICMSeg},
+  preview = {WACV_ICMSeg.png},
+  abstract = {This work uses causality-inspired invariant representations and diffusion-based augmentation to improve single-source domain generalization for cross-modality medical image segmentation.},
+  bibtex_show = {true},
+  topics = {AI4Healthcare, Continual Learning},
   selected = {true}
 }
 
-@inproceedings{nair-etal-2024-closing,
-    title = "Closing the Loop: Learning to Generate Writing Feedback via Language Model Simulated Student Revisions",
-    author = "Nair, Inderjeet Jayakumar  and
-      Tan, Jiaye  and
-      Su, Xiaotian  and
-      Gere, Anne  and
-      Wang, Xu  and
-      Wang, Lu",
-    editor = "Al-Onaizan, Yaser  and
-      Bansal, Mohit  and
-      Chen, Yun-Nung",
-    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
-    month = nov,
-    year = "2024",
-    address = "Miami, Florida, USA",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2024.emnlp-main.928",
-    pages = "16636--16657",
-    abstract = "Providing feedback is widely recognized as crucial for refining students{'} writing skills. Recent advances in language models (LMs) have made it possible to automatically generate feedback that is actionable and well-aligned with human-specified attributes. However, it remains unclear whether the feedback generated by these models is truly effective in enhancing the quality of student revisions. Moreover, prompting LMs with a precise set of instructions to generate feedback is nontrivial due to the lack of consensus regarding the specific attributes that can lead to improved revising performance. To address these challenges, we propose PROF that PROduces Feedback via learning from LM simulated student revisions. PROF aims to iteratively optimize the feedback generator by directly maximizing the effectiveness of students{'} overall revising performance as simulated by LMs. Focusing on an economic essay assignment, we empirically test the efficacy of PROF and observe that our approach not only surpasses a variety of baseline methods in effectiveness of improving students{'} writing but also demonstrates enhanced pedagogical values, even though it was not explicitly trained for this aspect.",
-    html = {https://aclanthology.org/2024.emnlp-main.928/},
-    preview = {ACL24_loop.png},
-    paper = {ACL24_loop.pdf},
-    bibtex_show={true},
-    selected = {true}
-}
-
-@inproceedings{wambsganss-etal-2023-unraveling,
-  abbr={EMNLP},
-  title = "Unraveling Downstream Gender Bias from Large Language Models: A Study on {AI} Educational Writing Assistance",
-  author = {Su*, Xiaotian  and
-    Wambsganss*, Thiemo  and
-    Swamy, Vinitra  and
-    Neshaei, Seyed  and
-    Rietsche, Roman  and
-    K{\"a}ser, Tanja},
-  editor = "Bouamor, Houda  and
-    Pino, Juan  and
-    Bali, Kalika",
-  booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
-  month = dec,
-  year = "2023",
-  address = "Singapore",
-  publisher = "Association for Computational Linguistics",
-  url = "https://aclanthology.org/2023.findings-emnlp.689",
-  doi = "10.18653/v1/2023.findings-emnlp.689",
-  pages = "10275--10288",
-  abstract = "Large Language Models (LLMs) are increasingly utilized in educational tasks such as providing writing suggestions to students. Despite their potential, LLMs are known to harbor inherent biases which may negatively impact learners. Previous studies have investigated bias in models and data representations separately, neglecting the potential impact of LLM bias on human writing. In this paper, we investigate how bias transfers through an AI writing support pipeline. We conduct a large-scale user study with 231 students writing business case peer reviews in German. Students are divided into five groups with different levels of writing support: one in-classroom group with recommender system feature-based suggestions and four groups recruited from Prolific {--} a control group with no assistance, two groups with suggestions from fine-tuned GPT-2 and GPT-3 models, and one group with suggestions from pre-trained GPT-3.5. Using GenBit gender bias analysis and Word Embedding Association Tests (WEAT), we evaluate the gender bias at various stages of the pipeline: in reviews written by students, in suggestions generated by the models, and in model embeddings directly. Our results demonstrate that there is no significant difference in gender bias between the resulting peer reviews of groups with and without LLM suggestions. Our research is therefore optimistic about the use of AI writing support in the classroom, showcasing a context where bias in LLMs does not transfer to students{'} responses.",
-  code = {https://github.com/epfl-ml4ed/unraveling-llm-bias},
-  html = {https://aclanthology.org/2023.findings-emnlp.689/},
-  preview = {EMNLP23_bias.png},
-  paper = {EMNLP23_bias.pdf},
-  bibtex_show={true},
-  selected = {true}
-}
-
-@inproceedings{su-etal-2023-reviewriter,
-  title = "Reviewriter: {AI}-Generated Instructions For Peer Review Writing",
-  author = {Su, Xiaotian  and
-    Wambsganss, Thiemo  and
-    Rietsche, Roman  and
-    Neshaei, Seyed Parsa  and
-    K{\"a}ser, Tanja},
-  editor = {Kochmar, Ekaterina  and
-    Burstein, Jill  and
-    Horbach, Andrea  and
-    Laarmann-Quante, Ronja  and
-    Madnani, Nitin  and
-    Tack, Ana{\"\i}s  and
-    Yaneva, Victoria  and
-    Yuan, Zheng  and
-    Zesch, Torsten},
-  booktitle = "Proceedings of the 18th Workshop on Innovative Use of NLP for Building Educational Applications (BEA 2023)",
-  month = jul,
-  year = "2023",
-  address = "Toronto, Canada",
-  publisher = "Association for Computational Linguistics",
-  url = "https://aclanthology.org/2023.bea-1.5",
-  doi = "10.18653/v1/2023.bea-1.5",
-  pages = "57--71",
-  abstract = "Large Language Models (LLMs) offer novel opportunities for educational applications that have the potential to transform traditional learning for students. Despite AI-enhanced applications having the potential to provide personalized learning experiences, more studies are needed on the design of generative AI systems and evidence for using them in real educational settings. In this paper, we design, implement and evaluate {\textbackslash}texttt{Reviewriter}, a novel tool to provide students with AI-generated instructions for writing peer reviews in German. Our study identifies three key aspects: a) we provide insights into student needs when writing peer reviews with generative models which we then use to develop a novel system to provide adaptive instructions b) we fine-tune three German language models on a selected corpus of 11,925 student-written peer review texts in German and choose German-GPT2 based on quantitative measures and human evaluation, and c) we evaluate our tool with fourteen students, revealing positive technology acceptance based on quantitative measures. Additionally, the qualitative feedback presents the benefits and limitations of generative AI in peer review writing.",
-  html = {https://aclanthology.org/2023.bea-1.5/},
-  preview = {BEA23_reviewriter.gif},
-  paper = {BEA23_reviewriter.pdf},
-  bibtex_show={true},
+@inproceedings{yuan2025mixpinn,
+  abbr = {IROS},
+  author = {Yuan, Xintian and Ao, Yunke and Chen, Boqi and Fuernstahl, Philipp},
+  title = {MIXPINN: Mixed-Material Simulations by Physics-Informed Neural Network},
+  booktitle = {The IEEE/RSJ International Conference on Intelligent Robots and Systems},
+  year = {2025},
+  html = {https://arxiv.org/abs/2503.14596},
+  preview = {IROS_MixPINN.png},
+  abstract = {MIXPINN is a physics-informed graph neural network framework for efficient mixed-material biomechanical simulation with soft-rigid interactions.},
+  bibtex_show = {true},
+  topics = {AI4Healthcare},
   selected = {false}
 }
 
-@inproceedings{10.1145/3640543.3645169,
-  author = {Neshaei, Seyed Parsa and Rietsche, Roman and Su, Xiaotian and Wambsganss, Thiemo},
-  title = {Enhancing Peer Review with AI-Powered Suggestion Generation Assistance: Investigating the Design Dynamics},
-  year = {2024},
-  isbn = {9798400705083},
-  publisher = {Association for Computing Machinery},
-  address = {New York, NY, USA},
-  url = {https://doi.org/10.1145/3640543.3645169},
-  doi = {10.1145/3640543.3645169},
-  abstract = {While writing peer reviews resembles an important task in science, education, and large organizations, providing fruitful suggestions to peers is not a straightforward task, as different user interaction designs of text suggestion interfaces can have diverse effects on user behaviors when writing the review text. Generative language models might be able to support humans in formulating reviews with textual suggestions. Previous systems use two designs for providing text suggestions, but do not empirically evaluate them: inline and list of suggestions. To investigate the effects of embedding NLP text generation models in the two designs, we collected user requirements to implement Hamta as an example of assistants providing reviewers with text suggestions. Our experiment on comparing the two designs on 31 participants indicates that people using the inline interface provided longer reviews on average, while participants using the list of suggestions experienced more ease of use in using our tool. The results shed light on important design findings for embedding text generation models in user-centered assistants.},
-  booktitle = {Proceedings of the 29th International Conference on Intelligent User Interfaces},
-  pages = {88–102},
-  numpages = {15},
-  keywords = {generative models, intelligent writing assistants, machine learning, natural language processing, peer reviews, text generation},
-  location = {<conf-loc>, <city>Greenville</city>, <state>SC</state>, <country>USA</country>, </conf-loc>},
-  series = {IUI '24},
-  html = {https://dl.acm.org/doi/10.1145/3640543.3645169},
-  preview = {IUI24_enhancing.png},
-  paper = {IUI24_enhancing.pdf},
-  bibtex_show={true},
-  selected = {false}
+@article{chen2023generative,
+  abbr = {MedIA},
+  author = {Chen, Boqi and Thandiackal, Kevin and Pati, Pushpak and Goksel, Orcun},
+  title = {Generative Appearance Replay for Continual Unsupervised Domain Adaptation},
+  journal = {Medical Image Analysis},
+  year = {2023},
+  html = {https://www.sciencedirect.com/science/article/pii/S1361841523001846},
+  doi = {10.1016/j.media.2023.102843},
+  code = {https://github.com/histocartography/generative-appearance-replay},
+  preview = {MedIA_GarDA.png},
+  abstract = {GarDA adapts a segmentation model sequentially across unlabeled domains using generative replay, without requiring access to previously seen data.},
+  bibtex_show = {true},
+  topics = {AI4Healthcare, Generative Models, Continual Learning},
+  selected = {true}
+}
+
+@inproceedings{thandiackal2022differentiable,
+  abbr = {ECCV},
+  author = {Thandiackal, Kevin and Chen, Boqi and Pati, Pushpak and Jaume, Guillaume and Williamson, Drew F. K. and Gabrani, Maria and Goksel, Orcun},
+  title = {Differentiable Zooming for Multiple Instance Learning on Whole-Slide Images},
+  booktitle = {European Conference on Computer Vision},
+  year = {2022},
+  html = {https://link.springer.com/chapter/10.1007/978-3-031-19803-8_41},
+  doi = {10.1007/978-3-031-19803-8_41},
+  code = {https://github.com/histocartography/zoommil},
+  preview = {ECCV_ZoomMIL.png},
+  abstract = {ZoomMIL learns multi-level zooming for whole-slide image classification, improving representation quality while reducing compute.},
+  bibtex_show = {true},
+  topics = {AI4Healthcare, Weakly-Supervised Learning},
+  selected = {true}
 }

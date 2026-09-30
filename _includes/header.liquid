@@ -96,8 +96,14 @@
                 </li>
               {% else %}
                 <li class="nav-item {% if page.url contains p.permalink %}active{% endif %}">
-                  {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
-                  <a class="nav-link" href="{{ url | relative_url }}">
+                  {% if p.nav_pdf %}
+                    {% assign url = p.nav_pdf %}
+                  {% elsif p.permalink contains '/blog/' %}
+                    {% assign url = '/blog/' %}
+                  {% else %}
+                    {% assign url = p.url %}
+                  {% endif %}
+                  <a class="nav-link" href="{{ url | relative_url }}" {% if p.nav_pdf %}target="_blank" rel="noopener noreferrer"{% endif %}>
                     {{- p.title }}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Coducate
-description: A Code Editor Extension to Streamline Instructor-Led Live Coding
+title: ICMSeg
+description: Generalizable single-source cross-modality medical image segmentation
 importance: 1
-category: work
+category: software
 related_publications: true
 ---
 
-[Project page](https://madbeamer.github.io/coducate-project-page/): now Coducate is available in [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=coducate.coducate).
+[Code](https://github.com/ratschlab/ICMSeg) for generalizable cross-modality medical image segmentation via invariant causal mechanisms.
