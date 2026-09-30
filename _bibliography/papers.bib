@@ -38,7 +38,7 @@
   preview = {arXiv_EgocentricVideo.png},
   abstract = {Motion-controllable video generation is crucial for egocentric applications in virtual reality and embodied AI. However, existing methods often struggle to achieve 3D-consistent fine-grained hand articulation. By adopting on 2D trajectories or implicit poses, they collapse 3D geometry into spatially ambiguous signals or over rely on human-centric priors. Under severe egocentric occlusions, this causes motion inconsistencies and hallucinated artifacts, as well as preventing cross-embodiment generalization to robotic hands. To address these limitations, we propose a novel framework that generates egocentric videos from a single reference frame, leveraging sparse 3D hand joints as embodiment-agnostic control signals with clear semantic and geometric structures. We introduce an efficient control module that resolves occlusion ambiguities while fully preserving 3D information. Specifically, it extracts occlusion-aware features from the source reference frame by penalizing unreliable visual signals from hidden joints, and employs a 3D-based weighting mechanism to robustly handle dynamically occluded target joints during motion propagation. Concurrently, the module directly injects 3D geometric embeddings into the latent space to strictly enforce structural consistency. To facilitate robust training and evaluation, we develop an automated annotation pipeline that yields over one million high-quality egocentric video clips paired with precise hand trajectories. Additionally, we register humanoid kinematic and camera data to construct a cross-embodiment benchmark. Extensive experiments demonstrate that our approach significantly outperforms state-of-the-art baselines, generating high-fidelity egocentric videos with realistic interactions and exhibiting exceptional cross-embodiment generalization to robotic hands.},
   bibtex_show = {true},
-  topics = {Generative Models, 3D Vision, World Model},
+  topics = {3D Vision, World Model},
   selected = {true}
 }
 
@@ -84,7 +84,7 @@
   preview = {ICLR_YoNoSplat.png},
   abstract = {Fast and flexible 3D scene reconstruction from unstructured image collections remains a significant challenge. We present YoNoSplat, a feedforward model that reconstructs high-quality 3D Gaussian Splatting representations from an arbitrary number of images. Our model is highly versatile, operating effectively with both posed and unposed, calibrated and uncalibrated inputs. YoNoSplat predicts local Gaussians and camera poses for each view, which are aggregated into a global representation using either predicted or provided poses. To overcome the inherent difficulty of jointly learning 3D Gaussians and camera parameters, we introduce a novel mixing training strategy. This approach mitigates the entanglement between the two tasks by initially using ground-truth poses to aggregate local Gaussians and gradually transitioning to a mix of predicted and ground-truth poses, which prevents both training instability and exposure bias. We further resolve the scale ambiguity problem by a novel pairwise camera-distance normalization scheme and by embedding camera intrinsics into the network. Moreover, YoNoSplat also predicts intrinsic parameters, making it feasible for uncalibrated inputs. YoNoSplat demonstrates exceptional efficiency, reconstructing a scene from 100 views (at 280x518 resolution) in just 2.69 seconds on an NVIDIA GH200 GPU. It achieves state-of-the-art performance on standard benchmarks in both pose-free and pose-dependent settings. Our project page is at https://botaoye.github.io/yonosplat/.},
   bibtex_show = {true},
-  topics = {Generative Models, 3D Vision},
+  topics = {3D Vision},
   selected = {true}
 }
 
@@ -100,7 +100,7 @@
   preview = {MICCAI_RevisitingDataCuration.png},
   abstract = {This work investigates unsupervised tile-level data curation for digital pathology foundation models, using hierarchical clustering over large-scale tile embeddings and balanced sampling strategies to improve downstream clinical performance.},
   bibtex_show = {true},
-  topics = {AI4Healthcare, Foundation Model},
+  topics = {AI4Healthcare},
   selected = {true}
 }
 
@@ -114,7 +114,7 @@
   doi = {10.1038/s42256-025-01074-y},
   abstract = {HistoPlexer generates spatially resolved protein multiplexes from standard H&E histopathology images and supports tumor microenvironment characterization.},
   bibtex_show = {true},
-  topics = {AI4Healthcare, Generative Models},
+  topics = {AI4Healthcare},
   selected = {false}
 }
 
@@ -159,7 +159,7 @@
   preview = {MedIA_GarDA.png},
   abstract = {GarDA adapts a segmentation model sequentially across unlabeled domains using generative replay, without requiring access to previously seen data.},
   bibtex_show = {true},
-  topics = {AI4Healthcare, Generative Models, Continual Learning},
+  topics = {AI4Healthcare, Continual Learning},
   selected = {false}
 }
 
