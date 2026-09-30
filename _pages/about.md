@@ -28,7 +28,7 @@ I earned an MSc from <a href="https://www.ethz.ch/"><img class="inline-logo inli
 <summary><strong>🎓 Work with me</strong></summary>
 <div class="work-with-me-body" markdown="1">
 
-I'm happy to hear from motivated students at ETH Zurich interested in a semester project or Master's thesis. Current directions include **multimodal LLMs and LLM agents for clinical reasoning**, **reliable decoding and evaluation of MLLMs**, and **foundation models for medical imaging and digital pathology**. If this sounds interesting, please [email me](mailto:boqi.chen@ai.ethz.ch) with your CV, transcript, and a short note on what you'd like to work on.
+I'm happy to hear from motivated students at ETH Zurich interested in a semester project or Master's thesis. Current directions include **LLM agents** for sequential decision-making in complex action spaces, **world models** and controllable video generation, **foundation models** for multimodal reasoning, and **AI for healthcare**. If this sounds interesting, please [email me](mailto:boqi.chen@ai.ethz.ch) with your CV, transcript, and a short note on what you'd like to work on.
 
 </div>
 </details>
