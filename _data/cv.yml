@@ -1,67 +1,91 @@
-- title: General Information
+- title: Education 🎓
+  type: time_table
+  contents:
+    - title: Ph.D., Computer Science
+      institution: ETH Zurich
+      department: ETH AI Center Doctoral Fellow (&lt;1% acceptance rate)
+      location: Zurich, Switzerland
+      year: 2023 - Present
+      description:
+        - "Advisors: Prof. Gunnar Rätsch and Prof. Ender Konukoglu"
+    - title: M.Sc.
+      institution: ETH Zurich
+      department: Information Technology and Electrical Engineering
+      location: Zurich, Switzerland
+      year: 2020 - 2023
+    - title: B.Eng.
+      institution: Xi'an Jiaotong University
+      department: Electrical Engineering
+      location: Xi'an, China
+      year: 2016 - 2020
+
+- title: Industry Experience 💼
+  type: time_table
+  contents:
+    - title: Machine Learning Engineer
+      institution: Apertus
+      location: Zurich, Switzerland
+      year: 2026 - Present
+      description:
+        - Post-training and evaluation of Apertus (v2.0).
+    - title: Machine Learning & AI Engineer Intern
+      institution: Apple
+      department: Greater China R&D
+      location: Shanghai, China
+      year: 2026
+      description:
+        - LLM agents for failure analysis.
+    - title: Machine Learning Research Intern
+      institution: IBM Research
+      department: Accelerated Discovery & AI
+      location: Rüschlikon, Switzerland
+      year: 2021 - 2022
+      description:
+        - Semi-supervised learning for large-scale image classification (ECCV 2022).
+
+- title: Research Experience 🔬
+  type: time_table
+  contents:
+    - title: Doctoral Fellow
+      institution: ETH AI Center
+      location: Zurich, Switzerland
+      year: 2023 - Present
+      description:
+        - title: Swiss AI Initiative on Egocentric World Models (ECCV 2026)
+          contents:
+            - Built an automated 3D hand annotation pipeline that yields million-scale egocentric video clips (Ego4D, EgoDex) for world-model training.
+            - Developed a 3D-controllable video generation framework (WAN 2.1 + LoRA) with occlusion-aware feature propagation; reduced FVD by ≥16% and 3D hand MPJPE by up to 68%, with transfer to robotic hands.
+        - title: Swiss AI Initiative on Healthcare Foundation Models (MICCAI 2025)
+          contents:
+            - Curated a ~350M-image dataset and pretrained with DINOv2 on 128 NVIDIA GH200 GPUs.
+            - Pretraining on 10% curated data outperformed full-data pretraining on downstream tasks.
+    - title: Visiting Researcher
+      institution: MBZUAI
+      location: Abu Dhabi, UAE
+      year: 2025 - 2026
+      description:
+        - title: Multi-modal LLM for Complex Reasoning over Heterogeneous Evidence (ACL 2026)
+          contents:
+            - Built an LLM-assisted data pipeline and a unified evaluation framework (GPT/Claude/Gemini APIs, vLLM-served 2B–78B models); benchmarked 18 models.
+            - Identified a cross-modal evidence utilization gap; an Evidence-Sensitivity-guided SFT data recipe achieved 2× the accuracy gain of general SFT (Qwen2.5-VL 7B).
+        - title: LLM Agents for Sequential Decision-Making (EMNLP 2026)
+          contents:
+            - Engineered an interactive sandbox with persona-driven simulation and partial observability, and a CMDP environment with action masking and safety-aware abstention.
+            - Fine-tuned Qwen2.5 (7B) with GRPO and Lagrangian safety constraints; improved task accuracy by 30% and reduced safety violations by 8%.
+
+- title: Technical Skills 🛠️
   type: map
   contents:
-    - name: Full Name
-      value: Boqi Chen
-    - name: Current Role
-      value: PhD Student in Computer Science, ETH Zurich
-    - name: Affiliation
-      value: Computer Vision Lab; ETH AI Center Doctoral Fellow
-    - name: Research Areas
-      value: Generative models, multimodal representation learning, medical image analysis, AI for healthcare
+    - name: Infrastructure & Languages
+      value: AWS, Slurm, Docker, Git, Python, C++
+    - name: Training & Serving
+      value: PyTorch, PyTorch Lightning, Transformers, FSDP, vLLM, LangChain, LangGraph
+    - name: Post-Training & Alignment
+      value: SFT, RLHF (DPO, GRPO), OPD, Reward Modeling, Preference Data, Agent RL, Tool-Calling, Evaluation
+    - name: Models
+      value: LLMs, Vision-Language Models, Diffusion Models, LLM Agents, CV, NLP
 
-- title: Education
-  type: time_table
+- title: Reviewer Service 📝
+  type: list
   contents:
-    - title: PhD Student, Computer Science
-      institution: ETH Zurich, Switzerland
-      year: 2023 - 2027
-      description:
-        - Co-supervised by Prof. Gunnar Rätsch and Prof. Ender Konukoglu.
-        - Supported by the ETH AI Center Doctoral Fellowship.
-    - title: M.Sc.
-      institution: ETH Zurich, Switzerland
-      year: 2020 - 2022
-    - title: B.Eng.
-      institution: Xi'an Jiaotong University, China
-      year:
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Research Intern
-      institution: Accelerated Discovery & AI, IBM Research Zurich
-      year: 2021 - 2023
-
-- title: Research Interests
-  type: nested_list
-  contents:
-    - title: AI for Healthcare
-      items:
-        - Medical image analysis and computational pathology.
-        - Learning from heterogeneous healthcare data.
-    - title: Representation Learning
-      items:
-        - Multimodal representation learning.
-        - Vision foundation models for digital pathology.
-    - title: Generative Modeling
-      items:
-        - Diffusion-based augmentation and cross-modality generalization.
-        - Generative replay for continual domain adaptation.
-    - title: Weakly Supervised Learning
-      items:
-        - Multiple instance learning on whole-slide images.
-        - Efficient multi-scale representations for gigapixel pathology images.
-
-- title: Selected Software
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/ratschlab/ICMSeg">ICMSeg</a>
-      year: 2025
-      description: Generalizable single-source cross-modality medical image segmentation via invariant causal mechanisms.
-    - title: <a href="https://github.com/histocartography/generative-appearance-replay">GarDA</a>
-      year: 2023
-      description: Generative appearance replay for continual unsupervised domain adaptation.
-    - title: <a href="https://github.com/histocartography/zoommil">ZoomMIL</a>
-      year: 2022
-      description: Differentiable zooming for multiple instance learning on whole-slide images.
+    - "<b>ACL, EMNLP, NeurIPS, ECCV, IJCV, IEEE-TMI</b>, etc. (2023 – Present)"
