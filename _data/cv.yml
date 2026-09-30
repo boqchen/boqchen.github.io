@@ -1,16 +1,17 @@
 - title: Education 🎓
   type: time_table
   contents:
-    - title: Ph.D., Computer Science
+    - title: '<span style="color: var(--global-theme-color)">Ph.D.</span>'
       institution: ETH Zurich
-      department: ETH AI Center Doctoral Fellow (&lt;1% acceptance rate)
+      department: Computer Science
       location: Zurich, Switzerland
       year: 2023 - Present
       description:
         - "Advisors: Prof. Gunnar Rätsch and Prof. Ender Konukoglu"
+        - ETH AI Center Doctoral Fellow (&lt;1% acceptance rate)
     - title: M.Sc.
       institution: ETH Zurich
-      department: Information Technology and Electrical Engineering
+      department: Electrical Engineering and Information Technology
       location: Zurich, Switzerland
       year: 2020 - 2023
     - title: B.Eng.
@@ -42,48 +43,6 @@
       year: 2021 - 2022
       description:
         - Semi-supervised learning for large-scale image classification (ECCV 2022).
-
-- title: Research Experience 🔬
-  type: time_table
-  contents:
-    - title: Doctoral Fellow
-      institution: ETH AI Center
-      location: Zurich, Switzerland
-      year: 2023 - Present
-      description:
-        - title: Swiss AI Initiative on Egocentric World Models (ECCV 2026)
-          contents:
-            - Built an automated 3D hand annotation pipeline that yields million-scale egocentric video clips (Ego4D, EgoDex) for world-model training.
-            - Developed a 3D-controllable video generation framework (WAN 2.1 + LoRA) with occlusion-aware feature propagation; reduced FVD by ≥16% and 3D hand MPJPE by up to 68%, with transfer to robotic hands.
-        - title: Swiss AI Initiative on Healthcare Foundation Models (MICCAI 2025)
-          contents:
-            - Curated a ~350M-image dataset and pretrained with DINOv2 on 128 NVIDIA GH200 GPUs.
-            - Pretraining on 10% curated data outperformed full-data pretraining on downstream tasks.
-    - title: Visiting Researcher
-      institution: MBZUAI
-      location: Abu Dhabi, UAE
-      year: 2025 - 2026
-      description:
-        - title: Multi-modal LLM for Complex Reasoning over Heterogeneous Evidence (ACL 2026)
-          contents:
-            - Built an LLM-assisted data pipeline and a unified evaluation framework (GPT/Claude/Gemini APIs, vLLM-served 2B–78B models); benchmarked 18 models.
-            - Identified a cross-modal evidence utilization gap; an Evidence-Sensitivity-guided SFT data recipe achieved 2× the accuracy gain of general SFT (Qwen2.5-VL 7B).
-        - title: LLM Agents for Sequential Decision-Making (EMNLP 2026)
-          contents:
-            - Engineered an interactive sandbox with persona-driven simulation and partial observability, and a CMDP environment with action masking and safety-aware abstention.
-            - Fine-tuned Qwen2.5 (7B) with GRPO and Lagrangian safety constraints; improved task accuracy by 30% and reduced safety violations by 8%.
-
-- title: Technical Skills 🛠️
-  type: map
-  contents:
-    - name: Infrastructure & Languages
-      value: AWS, Slurm, Docker, Git, Python, C++
-    - name: Training & Serving
-      value: PyTorch, PyTorch Lightning, Transformers, FSDP, vLLM, LangChain, LangGraph
-    - name: Post-Training & Alignment
-      value: SFT, RLHF (DPO, GRPO), OPD, Reward Modeling, Preference Data, Agent RL, Tool-Calling, Evaluation
-    - name: Models
-      value: LLMs, Vision-Language Models, Diffusion Models, LLM Agents, CV, NLP
 
 - title: Reviewer Service 📝
   type: list
