@@ -1437,7 +1437,7 @@ swiper-container {
 }
 
 .pdf-icon-document {
-  fill: #0b5eb7;
+  fill: var(--global-theme-color);
 }
 
 .pdf-icon-fold {
@@ -1449,7 +1449,7 @@ swiper-container {
 }
 
 .pdf-icon-text {
-  fill: #0b5eb7;
+  fill: var(--global-theme-color);
   font-family: Arial, sans-serif;
   font-size: 11px;
   font-weight: 700;
