@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-06-17 09:00:00+0200
+date: 2026-06-17 09:00:00+0100
 inline: true
 related_posts: false
 ---
 
-Our paper on [controllable egocentric video generation via occlusion-aware sparse 3D hand joints](https://arxiv.org/abs/2603.11755) has been accepted to **ECCV 2026**.
+🎉 [Controllable Egocentric Video Generation via Occlusion-Aware Sparse 3D Hand Joints](https://arxiv.org/abs/2603.11755) accepted to **ECCV 2026**.
