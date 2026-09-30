@@ -1035,8 +1035,8 @@ blockquote {
         }
 
         > em {
-          border-bottom: 1px solid;
           font-style: normal;
+          font-weight: 700;
         }
 
         > span.more-authors {
@@ -1429,4 +1429,21 @@ swiper-container {
   align-items: center;
   display: inline-flex;
   gap: 0.4rem;
+}
+
+// News: collapsed earlier items
+
+.news-earlier {
+  margin-top: 0.25rem;
+
+  summary {
+    color: var(--global-text-color-light);
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 0.25rem 0;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
 }
