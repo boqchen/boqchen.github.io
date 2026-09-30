@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://boqchen.github.io/sitemap.xml
