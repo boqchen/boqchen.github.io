@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my research internship at **IBM Research Zurich**.
+🇨🇭 I started a research internship at IBM Research Zurich in the Accelerated Discovery & AI group.

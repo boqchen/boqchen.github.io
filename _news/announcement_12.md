@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 [Differentiable Zooming for Multiple Instance Learning on Whole-Slide Images](https://link.springer.com/chapter/10.1007/978-3-031-19803-8_41) accepted to **ECCV 2022**.
+🎉 Excited that [*Differentiable Zooming for Multiple Instance Learning on Whole-Slide Images*](https://link.springer.com/chapter/10.1007/978-3-031-19803-8_41), our work on multi-scale slide classification, has been accepted to [ECCV 2022](https://eccv2022.ecva.net/). Find the [code](https://github.com/histocartography/zoommil) on GitHub.

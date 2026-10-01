@@ -1456,19 +1456,11 @@ swiper-container {
   letter-spacing: 0.4px;
 }
 
-// News: collapsed earlier items
+// News emoji spacing
 
-.news-earlier {
-  margin-top: 0.25rem;
-
-  summary {
-    color: var(--global-text-color-light);
-    cursor: pointer;
-    font-size: 0.9rem;
-    padding: 0.25rem 0;
-
-    &:hover {
-      color: var(--global-theme-color);
-    }
-  }
+.news img.emoji {
+  height: 1.1em;
+  margin-right: 0.3em;
+  vertical-align: -0.15em;
+  width: 1.1em;
 }

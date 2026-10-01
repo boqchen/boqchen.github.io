@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 [YoNoSplat](https://arxiv.org/abs/2511.07321) accepted to **ICLR 2026**.
+🎉 Happy to share that [*YoNoSplat*](https://botaoye.github.io/yonosplat/), a single feedforward model for 3D Gaussian Splatting from posed or unposed images, has been accepted to [ICLR 2026](https://iclr.cc/). Great collaboration with Botao Ye, Haofei Xu, Daniel Barath, and Marc Pollefeys.

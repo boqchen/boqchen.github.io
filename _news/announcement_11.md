@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my PhD in Computer Science at **ETH Zurich** and the **ETH AI Center**.
+🎓 I started my PhD in Computer Science at ETH Zurich as a Doctoral Fellow of the [ETH AI Center](https://ai.ethz.ch/), co-advised by Prof. Gunnar Rätsch and Prof. Ender Konukoglu.

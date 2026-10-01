@@ -1,14 +1,9 @@
-<div class="news">
+<div class="news" style="margin-bottom: 2rem;">
   {% if site.news != blank %}
     {% assign news = site.news | reverse %}
-    {% assign news_size = news | size %}
-    {% assign news_visible = news_size %}
-    {% if include.limit and site.announcements.limit %}
-      {% assign news_visible = site.announcements.limit %}
-    {% endif %}
-    <div class="table-responsive">
+    <div class="table-responsive"{% if include.limit %} style="max-height: 40vh"{% endif %}>
       <table class="table table-sm table-borderless">
-        {% for item in news limit: news_visible %}
+        {% for item in news %}
           <tr>
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
             <td>
@@ -22,27 +17,6 @@
         {% endfor %}
       </table>
     </div>
-    {% if news_size > news_visible %}
-      <details class="news-earlier">
-        <summary>Show earlier news</summary>
-        <div class="table-responsive">
-          <table class="table table-sm table-borderless">
-            {% for item in news offset: news_visible %}
-              <tr>
-                <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
-                <td>
-                  {% if item.inline %}
-                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                  {% else %}
-                    <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                  {% endif %}
-                </td>
-              </tr>
-            {% endfor %}
-          </table>
-        </div>
-      </details>
-    {% endif %}
   {% else %}
     <p>No news so far...</p>
   {% endif %}
