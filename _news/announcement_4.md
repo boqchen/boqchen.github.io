@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Two papers accepted to the main conference of [EMNLP 2026](https://2026.emnlp.org/)! [*GPAgentBench-2K*](https://arxiv.org/abs/2608.30188) is a constrained-MDP benchmark that puts LLM agents in a full six-action decision space, and [*Revisiting Greedy Decoding for Visual Question Answering*](https://arxiv.org/abs/2604.23443) argues, from a calibration perspective, that greedy decoding is a strong default for multimodal LLMs. Joint work with Xudong Liu, Yunke Ao, Jianing Qiu, and Heejin Do.
+Two first-authored papers are accepted by EMNLP 2026 (Main). [GPAgentBench-2K](https://arxiv.org/abs/2608.30188) for benchmarking LLM agents on sequential decision-making in a complex action space. [Revisiting Greedy Decoding for VQA](https://arxiv.org/abs/2604.23443) for rethinking multimodal LLM decoding from a calibration perspective.

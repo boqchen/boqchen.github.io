@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-📑 Our benchmark [*MEDSYN*](https://arxiv.org/abs/2602.21950) for multi-evidence synthesis in complex cases will appear in Findings of [ACL 2026](https://2026.aclweb.org/). We evaluate 18 multimodal LLMs and trace their failures to an under-used evidence modality.
+My first-authored paper [MEDSYN](https://arxiv.org/abs/2602.21950) is accepted by ACL 2026 Findings. It benchmarks how multimodal LLMs synthesize heterogeneous evidence in complex cases.

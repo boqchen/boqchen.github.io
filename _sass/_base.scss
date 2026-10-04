@@ -1464,3 +1464,18 @@ swiper-container {
   vertical-align: -0.15em;
   width: 1.1em;
 }
+
+// News list
+
+.news-list {
+  margin-bottom: 0;
+  padding-left: 1.2rem;
+
+  li {
+    margin-bottom: 0.45rem;
+  }
+
+  .news-date {
+    font-weight: 600;
+  }
+}

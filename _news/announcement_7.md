@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🇨🇳 Off to Shanghai! I joined Apple as a Machine Learning & AI Engineer Intern in Greater China R&D, working on LLM agents for failure analysis.
+I joined Apple in Shanghai as a Machine Learning & AI Engineer Intern, working on LLM agents for failure analysis.
